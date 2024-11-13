@@ -12,9 +12,6 @@ on:
         description: "Log-Level"
         default: "debug"
         required: false
-  schedule:
-    # Run at 15-past
-    - cron: "15 * * * *"
   push:
     branches:
       - main
